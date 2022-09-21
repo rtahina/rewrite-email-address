@@ -29,6 +29,20 @@ class Rewrite_Email_Address {
 
     public function rewrite_email_address( $content ) {
 
+        $pattern = '/([a-z0-9_\.\-])+\@(([a-z0-9\-])+\.)+([a-z0-9]{2,4})+/i';
+        preg_match_all( $pattern, $content, $match );
+
+        if ( isset( $match[0] ) ) {
+
+            $rewritten = [];
+
+            foreach( $match[0] as $email ) {
+                $rewritten[] = str_replace( '@', '_At_', $email );
+            }
+
+            $content = str_replace( $match[0], $rewritten, $content );
+        }
+
         return $content;
     }
 
