@@ -27,20 +27,23 @@ class Rewrite_Email_Address {
         add_filter ( 'the_content', [ $this, 'rewrite_email_address' ] );
     }
 
+    /**
+     * the_content hook callback
+     */
     public function rewrite_email_address( $content ) {
 
         $pattern = '/([a-z0-9_\.\-])+\@(([a-z0-9\-])+\.)+([a-z0-9]{2,4})+/i';
         preg_match_all( $pattern, $content, $match );
 
         if ( isset( $match[0] ) ) {
+            $email_addresses = $match[0];
+            $rewritten_email_addresses = [];
 
-            $rewritten = [];
-
-            foreach( $match[0] as $email ) {
-                $rewritten[] = str_replace( '@', '_At_', $email );
+            foreach( $email_addresses as $email ) {
+                $rewritten_email_addresses[] = str_replace( '@', '_At_', $email );
             }
 
-            $content = str_replace( $match[0], $rewritten, $content );
+            $content = str_replace( $email_addresses, $rewritten_email_addresses, $content );
         }
 
         return $content;
