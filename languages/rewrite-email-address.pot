@@ -1,0 +1,14 @@
+# Copyright (C) 2022 Tahina Rakotomanarivo
+# This file is distributed under the GPL2+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Rewrite Email Address 1.0.0\n"
+"Report-Msgid-Bugs-To: "
+"Last-Translator: Tahina R <to.tahina@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-09-13T09:47:04+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: rewrite-email-address\n"
