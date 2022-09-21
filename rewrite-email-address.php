@@ -40,7 +40,9 @@ class Rewrite_Email_Address {
             $rewritten_email_addresses = [];
 
             foreach( $email_addresses as $email ) {
-                $rewritten_email_addresses[] = str_replace( '@', '_At_', $email );
+                $rewritten_email = str_replace( '@', '_At_', $email );
+                $rewritten_email = '' . $rewritten_email . ' <sup><i style="font-size: 0.7em; opacity:0.8;" class="fa fa-envelope" aria-hidden="true"></i></sup>';
+                $rewritten_email_addresses[] = $rewritten_email;
             }
 
             $content = str_replace( $email_addresses, $rewritten_email_addresses, $content );
