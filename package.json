@@ -1,6 +1,6 @@
 {
   "name": "rewrite-email-address",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Rewrites any email address in your content to avoid crawler.",
   "main": "index.js",
   "scripts": {

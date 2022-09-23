@@ -1,10 +1,10 @@
 <?php
 /**
  * Plugin Name: Rewrite Email Address
- * Plugin URI: https://wordpress.org/r1lita/rewrite-email-address/
+ * Plugin URI: https://wordpress.org/rtahina/rewrite-email-address/
  * Description: This plugin rewrites your email address so that web crawler  won't be able to harvest them. Ex: myemail@adress.com would be rewritten to myemail_At_address.com
  * Version: 1.0.0
- * Author: Tahina R.
+ * Author: Tahina Rakotomanarivo.
  * Author URI: https://github.com/rtahina
  * License: GPL2+
  * Text Domain: rewrite-email-address
