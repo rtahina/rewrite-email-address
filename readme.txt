@@ -4,7 +4,7 @@ Tags: email, utilities, content
 Donate link:
 Requires at least: 5.4
 Tested up to: 6.0.2
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 Requires PHP: 7.4+
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -25,6 +25,9 @@ Download the zip file from the WordPress Plugin directory and upload it in your 
 2. Reformatted email address in a add/edit post
 
 == Changelog ==
+
+= 1.0.2 =
+* Updated icon size.
 
 = 1.0.1 =
 * Added icon.
