@@ -4,7 +4,7 @@ Tags: email, utilities, content
 Donate link:
 Requires at least: 5.4
 Tested up to: 6.0.2
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 Requires PHP: 7.4+
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -13,7 +13,7 @@ Rewrites any email address in your content to avoid crawler.
 
 == Description ==
 
-This plugin rewrites your email address so that web crawler  won't be able to harvest them. Ex: myemail@adress.com would be rewritten to myemail_At_address.com
+This plugin rewrites your email address so that web crawler  won't be able to harvest them. Ex: myemail@address.com would be rewritten to myemail_At_address.com
 
 == Installation ==
 
@@ -25,6 +25,10 @@ Download the zip file from the WordPress Plugin directory and upload it in your 
 2. Reformatted email address in a add/edit post
 
 == Changelog ==
+
+= 1.0.1 =
+* Added icon.
+* Corrected typo in Description
 
 = 1.0.0 =
 * Initial release.
