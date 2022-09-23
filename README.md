@@ -1,10 +1,10 @@
 # Rewrite Email Address
 
-This plugin rewrites your email address so that web crawler  won't be able to harvest them. Ex: myemail@adress.com would be rewritten to myemail_At_address.com
+This plugin rewrites your email address so that web crawler  won't be able to harvest them. Ex: myemail@address.com would be rewritten to myemail_At_address.com
 
 ## Installation
 
-Download the zip file from the [WordPress Plugin directory](https://wordpress.org/r1lita/rewrite-email-address) and upload it in your plugin dashboard or direclty install it from your dashboard by going to the "Plugins > Add" menu. Look for "Rewrite Email Address" in the search input, install and activate it.
+Download the zip file from the [WordPress Plugin directory](https://wordpress.org/plugins/rewrite-email-address) and upload it in your plugin dashboard or direclty install it from your dashboard by going to the "Plugins > Add" menu. Look for "Rewrite Email Address" in the search input, install and activate it.
 
 ## Usage
 

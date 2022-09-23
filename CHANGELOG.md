@@ -1,6 +1,6 @@
 # Changelog
 
-## v1.0.0 (2022-09-23)
+## v1.0.1 (2022-09-23)
 * Added icon.
 * Corrected typo in Description
 
